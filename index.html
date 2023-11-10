@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME DE BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        td{
+              border: 1px solid white;
+              padding: 5px ;
+          }
+          table{
+              border-collapse: collapse;
+          }
+     </style>
+</head>
+<body>
+    <div class=" container text-center fw-bold text-uppercase bg-info fs-2 py-2 mt-3 text-light" style="border-radius: 50px  0px 50px 0px;">
+        <p>resume sur bootstrap</p>
+
+    </div>
+    <div class="container-fluid my-3 text-light bg-dark" style="font-family: sans-serif;">
+        <span class="d-flex justify-content-center">
+            <p class="text-center text-capitalize px-5 fs-1 mt-5 text-light bg-info" style="border-radius: 50px;">definition </p>
+        </span>
+        <p><span class="text-info">Bootstrap</span> est un framework css le plus populaire (un framework css est une boite a outils pour les DEV, frame signifie cadre
+         et work se traduit par travail. un framework propose egalement un biblioteque de fonctionalites dans laquelles vos visiteurs vont pouvoir creuser
+         en fonction de leur besoins). <br>
+         <span class="text-info">Bootstrap</span> a été écrit par deux DEV twitter MARK OTTO et JACOB pou repondre a des problematique communes et 
+         gagner du temps dans la mise en forme des pages web.
+        </p>
+        <span class="d-flex justify-content-center">
+            <p class="text-center text-capitalize px-5 fs-1 mt-5 text-light bg-info" style="border-radius: 50px;">les aventages de bootstrap </p>
+        </span>
+        <ul>
+            <li>Responsive</li>
+            <li>Un site web jolie</li>
+            <li>Un gain de temps</li>
+            <li>Compatibilite</li> 
+            <li>Graphisme</li>
+        </ul>
+        <span class="d-flex justify-content-center">
+            <p class="text-center text-capitalize px-5 fs-1 mt-5 text-light bg-info" style="border-radius: 50px;">comment utiliser bootstrap </p>
+        </span>
+        <p>Pour utiliser bootstrap il faut obligatoirement l'installer et il existe deux maniers de le faire</p>
+        <ul>
+            <li>On peut utiliser la version <span class="text-info">CDN</span></li>
+            <li>ON peut l'installer localement</li>
+        </ul>
+        <span class="d-flex justify-content-center">
+            <p class="text-center text-capitalize px-5 fs-1 mt-5 text-light bg-info" style="border-radius: 50px;">les class de bootstrap </p>
+        </span>
+        <p>Bootstrap utilise des <span class="text-info">class</span> pour gerer certains proprietes css</p>
+
+        <ul>
+            <li>la class<span class="fs-5 text-info"> .container</span>:qui definit un max width a chaque point d'arret
+            et un width de 100% pour les ecrans dont leur taille est inferieur a 576px</li>
+            <li>la class<span class="fs-5 text-info"> .container-fluid</span>:qui definit width 100% pour tout type d'ecrant</li>
+            <li>la class<span class="fs-5 text-info"> .container-{breakpoint} </span>:qui definit un  width 100% j'usqu'au  point d'arret
+                specifier</li>
+        </ul>
+        <span class="text-capitalize text-info d-flex justify-content-center fs-4 my-3">les breakpoint in bootstrap</span>
+        <p>Les breakpoint de bootstrap 5 vont nous permettre de changer le design de votre site selon la resolution
+            (taille) d'ecran sur le quel il est consulté
+        </p>
+        <div class="w-75 mx-auto mt-3">
+            <img src="Capture d’écran (69).png" alt="image montrant les breakpoint" class="img-responsive w-100 ">        
+        </div>
+        <span class="d-flex justify-content-center">
+            <p class="text-center text-capitalize px-5 fs-1 mt-5 text-light bg-info" style="border-radius: 50px;">les grid de bootstrap </p>
+        </span>
+        <p>Bootstrap 5 possède un système de grille puissant et flexible qui permet de créer tous les types de mise en page. Cette grille utilise une série de lignes (en anglais, row) et de colonnes (en anglais, column) pour mettre en page le contenu. Une ligne permet d’envelopper une ou plusieurs colonnes qui intègrent du contenu.
+            
+        </p>
+       <div class="container">
+        <div class="row gx-5 gy-5">
+            <div class="col-12 col-md-6">
+                <div>
+                    <img src="code1.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+                <div>
+                    Vous remarquez qu'il y a un élément  <span class="text-info">div</span> parent   <span class="text-info">.row</span> enveloppant deux  <span class="text-info">div</span>  enfants  <span class="text-info">.col</span>. Bootstrap 5 possède une grille à 12 colonnes. Dans ce cas précis, Bootstrap attribuera automatiquement la moitié des colonnes à chacun des éléments   <span class="info">div</span>  de classe   .col, donnant alors une largeur de 6 colonnes par   <span class="text-info">div</span>.
+                </div>
+
+            </div>
+        </div>
+       </div>
+        <span class="d-flex justify-content-center">
+            <p class="text-center text-capitalize px-5 fs-1 mt-5 text-light bg-info" style="border-radius: 50px;">typography de bootstrap </p>
+        </span>
+        <span class="text-info fs-4 text-capitalize my-3">couleurs et arriere plan</span>
+        <p>Les couleurs standars de bootstrap nous permet de changer certains aspect dans nos page web
+            <u>EX:</u> on peut mettre un texte en rouge en utilisant la class <span class="text-info">.text-danger</span>
+            et changer la couleur de font en remplaçant text par <span class="text-info">bg</span> comme background.
+        </p>
+        <span class="d-flex justify-content-center text-info fs-4 text-capitalize">les couleurs standart de bootstrp5</span>
+       <div class="w-75 mx-auto">
+        <img src="bg.png" alt="" class="w-100 img-responsive">
+       </div>
+       <span class="text-info fs-4 text-capitalize my-3">autre type de class in bootstrap</span>
+       <table>
+            <tr>
+                <td><span class="text-info fs-5">class</span></td>
+                <td><span class="text-info fs-5">valeurs</span></td>
+                <td><span class="text-info fs-5">description</span></td>
+            
+
+            </tr>
+            <tr>
+                <td>.text-</td>
+                <td>left , right , nowrap <u>ex:.text-left</u></td>
+                <td>alignement d'un texte</td>
+            </tr>
+            <tr>
+                <td>.text-</td>
+                <td>lowercase , uppercase , capitalise</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                
+            </tr>
+            <tr>
+                <td>fs-valeur</td>
+                <td>1 , 2 , 3 , 4 , 5 ,6</td>
+                <td>fs-1 a les meme caracteres qu'un titre de niveau h1</td>
+            </tr>
+            <tr>
+                <td>fw-valeur</td>
+                <td>bold , bolder , normal , light , lighter , italic</td>
+                <td>c'est la propriete font-weight</td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>ms , me , mt , mb, mx, my</td>
+                <td>margin(start , end , top , bottom , start et end , top et bottom)</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>ps , pe , pt , pb, px, py</td>
+                <td>margin(start , end , top , bottom , start et end , top et bottom)</td>
+            </tr>
+       </table>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   
+</body>
+</html>
